@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Home</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="add.html" class="nav-link">Add Games</a></li>
+          <li class="nav-item"><a href="library.html" class="nav-link">Library</a></li>
+          <li class="nav-item"><a href="gamenights.html" class="nav-link">Game Nights</a></li>
+          <li class="nav-item"><a href="help.html" class="nav-link">Help</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold">Game Night</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">The best way to plan board games with your friends.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="add.html" class="nav-link">Get Started</a></button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="help.html" class="nav-link">Get Help</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h3 id="current-games mb-6">Current Games: <span id="current-games-count"></span></h3>
+      <h3 id="current-gamenights mb-2">Current Game Nights: <span id="current-gamenights-count"></span></h3>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
