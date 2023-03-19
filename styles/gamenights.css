@@ -1,0 +1,15 @@
+.add-form {
+  max-width: 500px;
+}
+
+.gameCard {
+  max-width: 500px;
+}
+
+#gameDisplay {
+  border: 1px solid black;
+}
+
+#gameNightDisplay {
+  border: 1px solid black;
+}
